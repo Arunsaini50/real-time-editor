@@ -1,12 +1,39 @@
-# React + Vite
+# ✍️ Real-Time Collaborative Editor — Internship Task 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic real-time collaborative text editor built using ReactJS, TailwindCSS, and the BroadcastChannel API (no backend needed).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧑‍🤝‍🧑 Multiple users can collaborate in real-time (open multiple tabs)
+- 🔁 Changes reflect live across all sessions
+- ✍️ Each line shows who edited it
+- 👀 Live typing indicator (`Arun is typing...`)
+- 💾 LocalStorage persistence
+- 🎨 Clean UI with TailwindCSS
 
-## Expanding the ESLint configuration
+## 🔗 Live Link
+👉 [Live Demo](https://your-vercel-or-netlify-link.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 How It Works
+
+- Uses the **BroadcastChannel API** for real-time communication between browser tabs.
+- Tracks each line of the editor and who last edited it.
+- Shows username-based distinction beside each line.
+- State is also saved to `localStorage` so it persists after reload.
+
+---
+
+## 💻 How to Run the Project Locally
+
+```bash
+git clone https://github.com/your-username/user-editor.git
+cd user-editor
+npm install
+npm run dev
+
+
+🧱 Tech Stack
+ReactJS
+TailwindCSS
+BroadcastChannel API
+LocalStorage (no backend)
