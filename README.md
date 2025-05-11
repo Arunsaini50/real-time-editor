@@ -32,11 +32,12 @@ git clone https://github.com/Arunsaini50/real-time-editor.git
 cd real-time-editor
 npm install
 npm run dev
+```
 
 ---
 
 ## 🧠 How It Works
-```bash
+
 - Uses **BroadcastChannel API** to sync data between open browser tabs in real time.
 - Splits the editor content into **lines**, each line tracks **who last edited it**.
 - Shows **typing indicators** live (`Ravi is typing...`)
@@ -67,4 +68,21 @@ npm run dev
 ---
 
 ## 📁 Folder Structure
+
+real-time-editor/
+├── components/
+│ └── Editor.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+├── package.json
+└── README.md
+
+---
+
+## 🙋 Author
+
+**Arun Saini**  
+GitHub: [@Arunsaini50](https://github.com/Arunsaini50)
+
 
