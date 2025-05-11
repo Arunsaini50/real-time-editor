@@ -31,9 +31,3 @@ cd user-editor
 npm install
 npm run dev
 
-
-🧱 Tech Stack
-ReactJS
-TailwindCSS
-BroadcastChannel API
-LocalStorage (no backend)
