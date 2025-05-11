@@ -12,7 +12,7 @@ A basic real-time collaborative text editor built using ReactJS, TailwindCSS, an
 - 🎨 Clean UI with TailwindCSS
 
 ## 🔗 Live Link
-👉 [Live Demo](https://your-vercel-or-netlify-link.com)
+👉 [Live Demo](https://real-time-edit.netlify.app/)
 
 ## 🧠 How It Works
 
