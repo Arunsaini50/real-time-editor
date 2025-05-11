@@ -33,20 +33,38 @@ cd real-time-editor
 npm install
 npm run dev
 
+---
+
 ## 🧠 How It Works
 
-- Uses **BroadcastChannel API** to communicate between open tabs in real time.
-- Editor content is split line-by-line.
-- Each line remembers which user last edited it.
-- Typing indicators show live user activity.
-- LocalStorage saves the current state so it survives refresh.
+- Uses **BroadcastChannel API** to sync data between open browser tabs in real time.
+- Splits the editor content into **lines**, each line tracks **who last edited it**.
+- Shows **typing indicators** live (`Ravi is typing...`)
+- Saves content to **LocalStorage** so it persists on refresh.
+- Uses `contentEditable`, and all logic is handled in `Editor.jsx`.
 
 ---
 
 ## 🧱 Tech Stack
 
-- ⚛️ ReactJS (Vite)
-- 🎨 TailwindCSS
-- 🌐 BroadcastChannel API
-- 💾 LocalStorage
-- ❌ No backend
+- ⚛️ **ReactJS** (Vite)
+- 🎨 **TailwindCSS**
+- 🌐 **BroadcastChannel API** for real-time sync
+- 💾 **LocalStorage** for persistence
+- ❌ No backend used
+
+---
+
+## 🚀 Features
+
+✅ Real-time sync across multiple tabs  
+✅ Each user has a unique name  
+✅ Line-by-line: "Who edited what"  
+✅ Live typing status (`Arun is typing...`)  
+✅ LocalStorage saves content after refresh  
+✅ Responsive and clean UI with TailwindCSS
+
+---
+
+## 📁 Folder Structure
+
