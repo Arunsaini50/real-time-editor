@@ -36,7 +36,7 @@ npm run dev
 ---
 
 ## 🧠 How It Works
-
+```bash
 - Uses **BroadcastChannel API** to sync data between open browser tabs in real time.
 - Splits the editor content into **lines**, each line tracks **who last edited it**.
 - Shows **typing indicators** live (`Ravi is typing...`)
